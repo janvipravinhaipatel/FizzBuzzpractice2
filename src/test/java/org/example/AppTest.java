@@ -34,5 +34,6 @@ public class AppTest
     public void testApp()
     {
         assertEquals( "FizzBuzz",App.FizzBuzz(15) );
+        assertEquals("Fizz",App.FizzBuzz(3));
     }
 }
