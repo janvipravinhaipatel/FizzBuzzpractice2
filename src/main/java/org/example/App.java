@@ -16,7 +16,7 @@ public class App {
             else if (a%5==0) {
             return ("Buzz");
         }
-
+        Output=String.valueOf(a);
         return Output;
     }
     public static void main (String[]args){
